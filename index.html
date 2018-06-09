@@ -29,16 +29,21 @@
   <main role="main">
     <article id="webslides">
 
-      <section class="bg-white">
-        <span class="background dark" style="background-image:url('https://source.unsplash.com/rsXAKLDfqB8/1600x800')"></span>
-        <!--.wrap = container (width: 90%) -->
+      <section class="fullscreen bg-blue aligncenter slide current">
+
+        <div class="embed dark">
+          <video autoplay muted loop poster="https://webslides.tv/static/images/peggy.jpg">
+            <source src="./static/intro.mp4" type="video/mp4">
+          </video>
+        </div>
+
         <div class="wrap aligncenter">
           <h1>
             <strong>Functional Programming for Humans</strong>
           </h1>
           <p class="text-symbols">* * * </p>
           <p>
-            <a class="button ghost" href="https://lab.raed.it/functional" title="Download slide">
+            <a target="_blank" class="button ghost" href="https://lab.raed.it/functional" title="Download slide">
               <svg class="fa-cloud-download">
                 <use xlink:href="#fa-cloud-download"></use>
               </svg> lab.raed.it/functional</a>
@@ -46,16 +51,15 @@
         </div>
 
         <footer>
-          <!--.wrap o <nav> = container 1200px -->
           <div class="wrap">
             <p>
               <span class="alignleft">
-                <a href="#" title="">
+                <a target="_blank" href="#" title="">
                   <img style="width: 200px; height: auto;" src="./static/images/logos/sfoteam.png">
                 </a>
               </span>
               <span class="alignright">
-                <a href="https://twitter.com/Raed667" target="_blank" title="Twitter">
+                <a target="_blank" href="https://twitter.com/Raed667" target="_blank" title="Twitter">
                   <svg class="fa-twitter">
                     <use xlink:href="#fa-twitter"></use>
                   </svg>
@@ -65,7 +69,6 @@
             </p>
           </div>
         </footer>
-        <!-- .end .wrap -->
       </section>
 
       <!-- What i'm not here to do -->
@@ -101,7 +104,7 @@
             <strong>They make it look complex</strong> 😱
           </h2>
           <div>
-            <iframe src="https://codesandbox.io/embed/81xr1v7z59?autoresize=1&expanddevtools=1&hidenavigation=1&module=%2Fsrc%2Findex.js"
+            <iframe src="https://codesandbox.io/embed/81xr1v7z59?autoresize=1&codemirror=1&expanddevtools=1&hidenavigation=1&module=%2Fsrc%2Findex.js&moduleview=1"
               style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
           </div>
         </div>
@@ -206,7 +209,7 @@
         </div>
       </section>
 
-      <section class="bg-primary aligncenter">
+      <section class="bg-blue aligncenter">
         <h2 class="text-emoji zoomIn">
           😎
           <h3>Because its
@@ -224,7 +227,7 @@
                 <p>
                   Do this, Do that
                 </p>
-                <a href="https://codesandbox.io/s/94zn4w377p?module=%2Fsrc%2Findex.js">
+                <a target="_blank" href="https://codesandbox.io/s/94zn4w377p?module=%2Fsrc%2Findex.js">
                   <img alt="Edit functional" src="https://codesandbox.io/static/img/play-codesandbox.svg">
                 </a>
               </center>
@@ -245,7 +248,7 @@
               <center>
                 <h4>Object Oriented</h4>
                 <p>From this state, do this, do that</p>
-                <a href="https://codesandbox.io/s/q8p3koym6?autoresize=1&hidenavigation=1&module=%2Fsrc%2FUser.js&view=editor">
+                <a target="_blank" href="https://codesandbox.io/s/q8p3koym6?autoresize=1&hidenavigation=1&module=%2Fsrc%2FUser.js&view=editor">
                   <img alt="Edit OOP" src="https://codesandbox.io/static/img/play-codesandbox.svg">
                 </a>
               </center>
@@ -321,10 +324,7 @@
           <iframe src="https://codesandbox.io/embed/mzov17mn2x?autoresize=1&hidenavigation=1&module=%2Fsrc%2Findex.js&view=editor"
             style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
-          Solution:
-          <a href="https://codesandbox.io/s/53w98r98wn">
-            <img alt="Edit map, curry, compose" src="https://codesandbox.io/static/img/play-codesandbox.svg">
-          </a>
+          <a target="_blank" href="https://codesandbox.io/s/53w98r98wn">Solution</a>
         </div>
       </section>
 
@@ -336,9 +336,9 @@
       </section>
 
       <!-- Side effects  #2-->
-      <section class="vertical">
-        <div class="wrap bg-white aligncenter">
-          <img src="./static/images/pure-io.png" />
+      <section>
+        <div class="wrap-50 aligncenter">
+          <img style="width: 50vw;" src="./static/images/pure-io.png" />
         </div>
       </section>
 
@@ -346,25 +346,19 @@
       <section>
         <span class="background dark" style="background-image:url('https://source.unsplash.com/J9TV0hiN1y0/1600x800')"></span>
         <div class="wrap bg-white aligncenter">
-          <h1>
-            Recap 📚
-          </h1>
+          <h3 class="text-emoji">Recap 📚</h3>
         </div>
       </section>
 
       <section class="aligncenter">
         <span class="background light" style="background-image:url('https://source.unsplash.com/9iZSWbJ4Xmw')"></span>
         <div class="wrap bg-white aligncenter">
-          <h2 class="text-emoji">
-            👋
-            <h3>Thank you !</h3>
-          </h2>
+          <h3 class="text-emoji">Thank you ! 👋</h3>
         </div>
       </section>
 
     </article>
   </main>
-
   <!--main-->
 
   <!-- Required -->
